@@ -1,0 +1,638 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision b9aa1b396c674f5739404e57fc84ce88c19aae41)
++++ .idea/workspace.xml	(revision )
+@@ -5,15 +5,10 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="45d68fa0-608d-460b-a903-07f1caf93941" name="Default" comment="Testing Laravel with Angular JS and BootStrap Respositive development, still in development with mysql dbase timedate converter.">
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mvc/util/Auth.php" afterPath="$PROJECT_DIR$/../mvc/util/Auth.php" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mvc/libs/Model.php" afterPath="$PROJECT_DIR$/../mvc/libs/Model.php" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mvc/index.php" afterPath="$PROJECT_DIR$/../mvc/index.php" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mvc/controllers/index.php" afterPath="$PROJECT_DIR$/../mvc/controllers/index.php" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mvc/models/index_model.php" afterPath="$PROJECT_DIR$/../mvc/models/index_model.php" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../laravel_angJS_TT/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../laravel_angJS_TT/.idea/workspace.xml" />
+-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mvc/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mvc/.idea/workspace.xml" />
++      <change type="DELETED" beforePath="$PROJECT_DIR$/../laravel-angular-time-tracker-master/.idea/misc.xml" afterPath="" />
++      <change type="DELETED" beforePath="$PROJECT_DIR$/../laravel-angular-time-tracker-master/.idea/modules.xml" afterPath="" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../code_refactor" afterPath="$PROJECT_DIR$/../code_refactor" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+     </list>
+     <ignored path="laravel-angular-time-tracker-master.iws" />
+     <ignored path=".idea/workspace.xml" />
+@@ -39,9 +34,9 @@
+   <component name="FileEditorManager">
+     <leaf>
+       <file leaf-file-name="TimeEntry.php" pinned="false" current-in-tab="true">
+-        <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/app/TimeEntry.php">
++        <entry file="file://$PROJECT_DIR$/app/TimeEntry.php">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state vertical-scroll-proportion="0.34577388" vertical-offset="0" max-vertical-offset="911">
++            <state vertical-scroll-proportion="0.34501642" vertical-offset="0" max-vertical-offset="913">
+               <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+               <folding />
+             </state>
+@@ -83,13 +78,13 @@
+     <detection-done>true</detection-done>
+     <gulpfiles>
+       <GulpfileState>
+-        <gulpfile-path>$PROJECT_DIR$/../laravel_angJS_TT/gulpfile.js</gulpfile-path>
++        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+       </GulpfileState>
+     </gulpfiles>
+   </component>
+   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+   <component name="ProjectFrameBounds">
+-    <option name="width" value="1918" />
++    <option name="width" value="1912" />
+     <option name="height" value="1080" />
+   </component>
+   <component name="ProjectInspectionProfilesVisibleTreeState">
+@@ -150,7 +145,6 @@
+       <sortByType />
+     </navigator>
+     <panes>
+-      <pane id="Scope" />
+       <pane id="ProjectPane">
+         <subPane>
+           <PATH>
+@@ -171,6 +165,7 @@
+           </PATH>
+         </subPane>
+       </pane>
++      <pane id="Scope" />
+     </panes>
+   </component>
+   <component name="PropertiesComponent">
+@@ -197,6 +192,9 @@
+       <BehatRunner />
+       <method />
+     </configuration>
++    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
++      <method />
++    </configuration>
+     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+       <node-options />
+       <gulpfile />
+@@ -206,12 +204,12 @@
+       <envs />
+       <method />
+     </configuration>
+-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+-      <method />
+-    </configuration>
+     <list size="0" />
+   </component>
+   <component name="ShelveChangesManager" show_recycled="false" />
++  <component name="SvnConfiguration">
++    <configuration />
++  </component>
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+       <changelist id="45d68fa0-608d-460b-a903-07f1caf93941" name="Default" comment="" />
+@@ -235,30 +233,30 @@
+     <servers />
+   </component>
+   <component name="ToolWindowManager">
+-    <frame x="0" y="0" width="1918" height="1080" extended-state="4" />
++    <frame x="0" y="0" width="1912" height="1080" extended-state="4" />
+     <editor active="false" />
+     <layout>
++      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
++      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25213677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991684" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
++      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2545552" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
++      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
++      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
++      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
++      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
++      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
++      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
++      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991684" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+     </layout>
+   </component>
+@@ -287,272 +285,231 @@
+     <watches-manager />
+   </component>
+   <component name="editorHistoryManager">
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/app/Http/Controllers/UsersController.php">
++    <entry file="file://$PROJECT_DIR$/app/TimeEntry.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
++        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/app/Http/Controllers/HomeController.php">
++    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
+       <provider selected="true" editor-type-id="text-editor">
++        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
++          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
++      <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/app/Http/Controllers/WelcomeController.php">
++    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/app/Http/Controllers/Controller.php">
++    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding>
+-            <element signature="e#39#88#0#PHP" expanded="false" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/app/Http/Kernel.php">
++    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/app/Http/routes.php">
++    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding>
+-            <element signature="e#7#392#0#PHP" expanded="false" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/database/migrations/2014_10_12_000000_create_users_table.php">
++    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="660">
+           <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/database/seeds/DatabaseSeeder.php">
++    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/database/migrations/2014_10_12_100000_create_password_resets_table.php">
++    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding>
+-            <element signature="e#7#48#0#PHP" expanded="false" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/database/migrations/2015_03_30_181118_create_time_entries_table.php">
++    <entry file="file://$PROJECT_DIR$/database/migrations/2015_03_30_181118_create_time_entries_table.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding>
+-            <element signature="e#7#48#0#PHP" expanded="false" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/public/index.php">
++    <entry file="file://$PROJECT_DIR$/public/index.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="942">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/config/database.php">
++    <entry file="file://$PROJECT_DIR$/config/database.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="-8.125" vertical-offset="225" max-vertical-offset="1965">
+           <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/readme.md">
+-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+-        <state />
+-      </provider>
++    <entry file="file://$PROJECT_DIR$/readme.md">
+       <provider editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
++      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
++        <state />
++      </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/.env">
++    <entry file="file://$PROJECT_DIR$/.env">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="942">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/resources/views/home.blade.php">
++    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="942">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/resources/views/app.blade.php">
++    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/app/User.php">
++    <entry file="file://$PROJECT_DIR$/app/User.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="942">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/public/scripts/controllers/TimeEntry.js">
++    <entry file="file://$PROJECT_DIR$/public/scripts/controllers/TimeEntry.js">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="2100">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/public/scripts/services/time.js">
++    <entry file="file://$PROJECT_DIR$/public/scripts/services/time.js">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1650">
+           <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/public/scripts/services/user.js">
++    <entry file="file://$PROJECT_DIR$/public/scripts/services/user.js">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="942">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/public/scripts/app.js">
++    <entry file="file://$PROJECT_DIR$/public/scripts/app.js">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="942">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/app/Http/Controllers/TimeEntriesController.php">
++    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TimeEntriesController.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding>
+-            <element signature="e#39#61#0#PHP" expanded="false" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/app/Http/Controllers/UsersController.php">
++    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1365">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/app/Http/Controllers/HomeController.php">
++    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="942">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/app/Http/Controllers/WelcomeController.php">
++    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="942">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/app/Http/Controllers/Controller.php">
++    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="942">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding>
+-            <element signature="e#39#88#0#PHP" expanded="false" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/app/Http/Kernel.php">
++    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="942">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/app/Http/routes.php">
++    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="942">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding>
+-            <element signature="e#7#392#0#PHP" expanded="false" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/database/migrations/2015_03_30_181118_create_time_entries_table.php">
++    <entry file="file://$PROJECT_DIR$/database/migrations/2015_03_30_181118_create_time_entries_table.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="942">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding>
+-            <element signature="e#7#48#0#PHP" expanded="false" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/database/migrations/2014_10_12_100000_create_password_resets_table.php">
++    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="942">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding>
+-            <element signature="e#7#48#0#PHP" expanded="false" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/database/migrations/2014_10_12_000000_create_users_table.php">
++    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="660">
+           <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -564,139 +521,114 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/public/js/jquery-1.9.1.min.js">
++    <entry file="file://$PROJECT_DIR$/public/js/jquery-1.9.1.min.js">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.06507592" vertical-offset="0" max-vertical-offset="922">
+           <caret line="4" column="28407" selection-start-line="4" selection-start-column="28407" selection-end-line="4" selection-end-column="28407" />
+-          <folding>
+-            <element signature="n#!!doc" expanded="false" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/public/js/bootstrap-datepicker.js">
++    <entry file="file://$PROJECT_DIR$/public/js/bootstrap-datepicker.js">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.98156184" vertical-offset="20020" max-vertical-offset="21015">
+           <caret line="1395" column="0" selection-start-line="1395" selection-start-column="0" selection-end-line="1395" selection-end-column="0" />
+-          <folding>
+-            <element signature="n#!!doc" expanded="false" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/public/bower_components/bootstrap/dist/css/datepicker.css">
++    <entry file="file://$PROJECT_DIR$/public/bower_components/bootstrap/dist/css/datepicker.css">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.96791446" vertical-offset="6310" max-vertical-offset="7305">
+           <caret line="481" column="0" selection-start-line="481" selection-start-column="0" selection-end-line="481" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/public/index.html">
++    <entry file="file://$PROJECT_DIR$/public/index.html">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="1320">
+           <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/public/bower_components/bootstrap/dist/js/npm.js">
++    <entry file="file://$PROJECT_DIR$/public/bower_components/bootstrap/dist/js/npm.js">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/public/bower_components/bootstrap/dist/js/bootstrap.min.js">
++    <entry file="file://$PROJECT_DIR$/public/bower_components/bootstrap/dist/js/bootstrap.min.js">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.33333334" vertical-offset="5087" max-vertical-offset="11730">
+           <caret line="359" column="80" selection-start-line="359" selection-start-column="76" selection-end-line="359" selection-end-column="80" />
+-          <folding>
+-            <element signature="n#!!doc" expanded="false" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/public/bower_components/bootstrap/dist/js/bootstrap.js">
++    <entry file="file://$PROJECT_DIR$/public/bower_components/bootstrap/dist/js/bootstrap.js">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.33296582" vertical-offset="15703" max-vertical-offset="34950">
+           <caret line="1067" column="69" selection-start-line="1067" selection-start-column="65" selection-end-line="1067" selection-end-column="69" />
+-          <folding>
+-            <element signature="n#!!doc" expanded="false" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/public/bower_components/bootstrap/package.json">
++    <entry file="file://$PROJECT_DIR$/public/bower_components/bootstrap/package.json">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.38844848" vertical-offset="452" max-vertical-offset="1335">
+           <caret line="53" column="23" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="23" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/public/bower_components/bootstrap/bower.json">
++    <entry file="file://$PROJECT_DIR$/public/bower_components/bootstrap/bower.json">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/resources/views/index.php">
++    <entry file="file://$PROJECT_DIR$/resources/views/index.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.625" vertical-offset="270" max-vertical-offset="1935">
+           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/database/seeds/DatabaseSeeder.php">
++    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.26344675" vertical-offset="0" max-vertical-offset="1110">
+           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+-          <folding>
+-            <element signature="e#7#38#0#PHP" expanded="false" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/public/bower_components/moment/locale/lb.js">
++    <entry file="file://$PROJECT_DIR$/public/bower_components/moment/locale/lb.js">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.3321234" vertical-offset="702" max-vertical-offset="2145">
+           <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/public/css/app.css">
++    <entry file="file://$PROJECT_DIR$/public/css/app.css">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.33271375" vertical-offset="38731" max-vertical-offset="113715">
+           <caret line="2594" column="22" selection-start-line="2594" selection-start-column="22" selection-end-line="2594" selection-end-column="22" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/app/Exceptions/Handler.php">
++    <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.41935483" vertical-offset="169" max-vertical-offset="720">
+           <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/public/bower_components/jquery/src/selector-native.js">
++    <entry file="file://$PROJECT_DIR$/public/bower_components/jquery/src/selector-native.js">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.3321234" vertical-offset="522" max-vertical-offset="2670">
+           <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../laravel_angJS_TT/app/TimeEntry.php">
++    <entry file="file://$PROJECT_DIR$/app/TimeEntry.php">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="0.34577388" vertical-offset="0" max-vertical-offset="911">
++        <state vertical-scroll-proportion="0.34501642" vertical-offset="0" max-vertical-offset="913">
+           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+           <folding />
+         </state>
+\ No newline at end of file
+Index: ../laravel-angular-time-tracker-master/.idea/modules.xml
+===================================================================
+--- ../laravel-angular-time-tracker-master/.idea/modules.xml	(revision b9aa1b396c674f5739404e57fc84ce88c19aae41)
++++ ../laravel-angular-time-tracker-master/.idea/modules.xml	(revision b9aa1b396c674f5739404e57fc84ce88c19aae41)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/laravel-angular-time-tracker-master.iml" filepath="$PROJECT_DIR$/.idea/laravel-angular-time-tracker-master.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../laravel-angular-time-tracker-master/.idea/misc.xml
+===================================================================
+--- ../laravel-angular-time-tracker-master/.idea/misc.xml	(revision b9aa1b396c674f5739404e57fc84ce88c19aae41)
++++ ../laravel-angular-time-tracker-master/.idea/misc.xml	(revision b9aa1b396c674f5739404e57fc84ce88c19aae41)
+@@ -1,4 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager" version="2" />
+-</project>
+\ No newline at end of file
